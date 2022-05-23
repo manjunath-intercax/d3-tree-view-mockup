@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .treeWrapper {
+  padding: 40px;
+  width: 100vh;
+  height: 100vw;
+} */
+
+#root {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.node__root > circle {
+  fill: red;
+  r: 30;
+}
+
+.node__branch > circle {
+  fill: yellow;
+  r: 30;
+}
+
+.node__leaf > circle {
+  fill: green;
+  /* Let's also make the radius of leaf nodes larger */
+  r: 30;
+}
